@@ -48,6 +48,11 @@
   transform: translateY(-50%);
 }
 
+.texto {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
 body{
 overflow-x: hidden ;
 }

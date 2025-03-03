@@ -14,46 +14,150 @@ const Locations = () => {
           </p>
         </div>
 
-        <div className="location_details flex justify-center mt-10 gap-5 group">
-    <div className="location_card p-6 bg-[url(../images/location-1.jpg)] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 1</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div className="location_details flex justify-center mt-10 gap-5">
+        <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
     </div>
 
-    <div className="location_card p-6 bg-[url(../images/location-2.jpg)] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 2</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
     </div>
 
-    {/* Active 3rd Card */}
-    <div className="location_card p-6 bg-[url(../images/location-3.jpg)] bg-cover bg-center relative rounded-2xl w-[500px] h-[400px] transition-all duration-500 ease-in-out flex-shrink-0 group-hover:w-[100px] hover:w-[500px]">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 3 (Active)</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
     </div>
 
-    <div className="location_card p-6 bg-[url(../images/location-4.jpg)] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 4</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
     </div>
 
-    <div className="location_card p-6 bg-[url(../images/location-5.jpg)] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 5</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
     </div>
 
-    <div className="location_card p-6 bg-[url(../images/location-6.jpg)] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 6</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
     </div>
 
-    <div className="location_card p-6 bg-[url(../images/location-7.jpg)] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0">
-        <h3 className="text-center text-2xl font-e text-[#9D7753]">Location 7</h3>
-        <p className="text-[#787878] font-p text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
     </div>
-</div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
+    </div>
+
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <div className="location_card cursor-pointer p-6 bg-[url('../images/location-1.jpg')] bg-cover bg-center relative rounded-2xl w-[100px] h-[400px] transition-all duration-500 ease-in-out hover:w-[500px] flex-shrink-0 flex flex-col justify-end group overflow-hidden">
+    <div className="location_overlay bg-black absolute top-0 left-0 opacity-20 inset-0 rounded-2xl"></div>
+
+    <div className="location_heading absolute bottom-6 left-6 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+      <h3 className="text-white text-2xl font-e transform rotate-[-90deg] origin-left whitespace-nowrap">
+        Los Angeles
+      </h3>
+    </div>
+
+    <div className="location_hp opacity-0 translate-x-10 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 absolute bottom-6 left-4">
+      <h3 className="text-white text-2xl font-e">Los Angeles</h3>
+      <p className="text-white font-p text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  
 
 
 
+
+          
+        </div>
       </div>
     </section>
   );
