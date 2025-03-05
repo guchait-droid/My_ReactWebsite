@@ -18,6 +18,11 @@ import Privatelabel from "./Privatelabel";
 import Whychooseus from "./Whychooseus";
 import Counter from "./Counter";
 import Locations from "./Locations";
+import Clients from "./Clients";
+import Content from "./Content";
+import Shipping from "./Shipping";
+
+
 
 
 const Home = () => {
@@ -36,6 +41,11 @@ const Home = () => {
         <Whychooseus/>
         <Counter/>
         <Locations/>
+        <Clients/>
+        <Content/>
+        <Shipping/>
+     
+       
         
       </Layout>
     </>
